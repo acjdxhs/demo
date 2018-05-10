@@ -3,11 +3,11 @@ Vue + SpringBoot + MyBatis
 =========
 # 后端
 1.  在 IDEA 中创建项目
-    ![step1](https://github.com/acjdxhs/demo/tree/master/img_folder/step1.png)
-    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step2.png)
-    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step3.png)
-    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step4.png)
-    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step5.png)
+    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step1.png)
+    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step2.png)
+    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step3.png)
+    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step4.png)
+    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step5.png)
 2.  创建文件并输入代码，见仓库。
 3.  配置连接 MySQL 数据库
     *   首先需要安装 MySQL 数据库，这里不做展开。
@@ -74,8 +74,9 @@ Vue + SpringBoot + MyBatis
         注：  
         ① webpack 是模板名称，可以到 vue.js 的 GitHub 上查看更多的模板https://github.com/vuejs-templates  
         ② 在模板安装的交互式界面中，可以先不选择安装vue-router， 后面手动安装来更好的学习。  
+        ![](https://github.com/acjdxhs/demo/raw/master/img_folder/frontend.png)
         ③ 此时文件目录结构为 
-         
+        ![](https://github.com/acjdxhs/demo/raw/master/img_folder/directory.png)
             
 4.	进入Vue项目，安装依赖
         > cd frontend  

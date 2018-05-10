@@ -1,13 +1,12 @@
-[TOC]
 Vue + SpringBoot + MyBatis  
 =========
 # 后端
 1.  在 IDEA 中创建项目
-    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step1.png)
-    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step2.png)
-    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step3.png)
-    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step4.png)
-    ![](https://github.com/acjdxhs/demo/raw/master/img_folder/step5.png)
+    ![Step 1](https://github.com/acjdxhs/demo/raw/master/img_folder/step1.png)
+    ![Step 2](https://github.com/acjdxhs/demo/raw/master/img_folder/step2.png)
+    ![Step 3](https://github.com/acjdxhs/demo/raw/master/img_folder/step3.png)
+    ![Step 4](https://github.com/acjdxhs/demo/raw/master/img_folder/step4.png)
+    ![Step 5](https://github.com/acjdxhs/demo/raw/master/img_folder/step5.png)
 2.  创建文件并输入代码，见仓库。
 3.  配置连接 MySQL 数据库
     *   首先需要安装 MySQL 数据库，这里不做展开。
@@ -30,7 +29,7 @@ Vue + SpringBoot + MyBatis
         spring.datasource.driver-class-name=com.mysql.jdbc.Driver  
         </code></pre>
 4.  运行 DemoApplication.java
-5.  在浏览器中输入 http://localhost:8080/login/?username=admin&password=123456，会看到登陆成功
+5.  在浏览器中输入 http://localhost:8080/login/?username=admin&password=123456， 会看到登陆成功
 6.  当上面这个请求到来时，会发生什么？
     *   首先，框架扫描控制器，发现在 LoginController 中的 Login 方法能够匹配到 url 中的 "/login" （这在 RequestMapping 中定义），因此 
         Login 方法会被调用。
@@ -61,15 +60,15 @@ Vue + SpringBoot + MyBatis
             调用 UserMapper.java 中给的方法时会执行 UserMapper.xml 中对应 id 的
             SQL 语句。  
     
-#前端
+# 前端
 ### Vue 安装
 1.	获得cnpm，目的是利用淘宝的镜像，而不是使用国外的资源，这样下载依赖包的时候会快很多
-        > npm install -g cnpm –registry=https://registry.npm.taobao.org
+    > npm install -g cnpm –registry=https://registry.npm.taobao.org
 2.	全局安装 vue-cli （vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快速创建 vue 项目）
-        > cnpm install --global vue-cli
+    > cnpm install --global vue-cli
 3.	创建项目   
-        > 在命令行模式进入 demo 文件夹（为后端文件所在的目录）下，输入   
-          vue init webpack frontend
+    > 在命令行模式进入 demo 文件夹（为后端文件所在的目录）下，输入   
+       vue init webpack frontend
     
       注：  
       ① webpack 是模板名称，可以到 vue.js 的 GitHub 上查看更多的模板https://github.com/vuejs-templates  
@@ -79,12 +78,12 @@ Vue + SpringBoot + MyBatis
       ![](https://github.com/acjdxhs/demo/raw/master/img_folder/directory.png)
             
 4.	进入Vue项目，安装依赖
-        > cd frontend  
-          cnpm install
+    > cd frontend  
+      cnpm install
 5.	启动项目
-        > npm run dev
+    > npm run dev
 6.	项目完成后，进行打包 (打包完成后，会生成 dist 文件夹, 项目上线时，只需要将 dist 文件夹放到服务器就行了)
-        > npm run build
+    > npm run build
 ### Vue文件说明
 1.  bulid：配置了webpack的基本配置、开发环境配置、生产环境配置等
 2.  config：包含项目基本配置文件，其中index.js 设定了端口和其它常用的值

@@ -3,7 +3,7 @@ Vue + SpringBoot + MyBatis
 =========
 # 后端
 1.  在 IDEA 中创建项目
-    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step1.png)
+    ![step1](https://github.com/acjdxhs/demo/tree/master/img_folder/step1.png)
     ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step2.png)
     ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step3.png)
     ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step4.png)

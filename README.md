@@ -1,6 +1,6 @@
 Vue + SpringBoot + MyBatis  
 =========
-# 后端
+# 一、后端
 1.  在 IDEA 中创建项目
     ![Step 1](https://github.com/acjdxhs/demo/raw/master/img_folder/step1.png)
     ![Step 2](https://github.com/acjdxhs/demo/raw/master/img_folder/step2.png)
@@ -60,7 +60,7 @@ Vue + SpringBoot + MyBatis
             调用 UserMapper.java 中给的方法时会执行 UserMapper.xml 中对应 id 的
             SQL 语句。  
     
-# 前端
+# 二、前端
 ### Vue 安装
 1.	获得cnpm，目的是利用淘宝的镜像，而不是使用国外的资源，这样下载依赖包的时候会快很多
     > npm install -g cnpm –registry=https://registry.npm.taobao.org

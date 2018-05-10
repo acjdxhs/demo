@@ -71,12 +71,12 @@ Vue + SpringBoot + MyBatis
         > 在命令行模式进入 demo 文件夹（为后端文件所在的目录）下，输入   
           vue init webpack frontend
     
-        注：  
-        ① webpack 是模板名称，可以到 vue.js 的 GitHub 上查看更多的模板https://github.com/vuejs-templates  
-        ② 在模板安装的交互式界面中，可以先不选择安装vue-router， 后面手动安装来更好的学习。  
-        ![](https://github.com/acjdxhs/demo/raw/master/img_folder/frontend_init.png)
-        ③ 此时文件目录结构为 
-        ![](https://github.com/acjdxhs/demo/raw/master/img_folder/directory.png)
+      注：  
+      ① webpack 是模板名称，可以到 vue.js 的 GitHub 上查看更多的模板https://github.com/vuejs-templates  
+      ② 在模板安装的交互式界面中，可以先不选择安装vue-router， 后面手动安装来更好的学习。    
+      ![](https://github.com/acjdxhs/demo/raw/master/img_folder/frontend_init.png)
+      ③ 此时文件目录结构为   
+      ![](https://github.com/acjdxhs/demo/raw/master/img_folder/directory.png)
             
 4.	进入Vue项目，安装依赖
         > cd frontend  

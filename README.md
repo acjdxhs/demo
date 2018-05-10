@@ -3,11 +3,11 @@ Vue + SpringBoot + MyBatis
 =========
 # 后端
 1.  在 IDEA 中创建项目
-    ![](demo/img_folder/step1.png)
-    ![](demo/img_folder/step2.png)
-    ![](demo/img_folder/step3.png)
-    ![](demo/img_folder/step4.png)
-    ![](demo/img_folder/step5.png)
+    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step1.png)
+    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step2.png)
+    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step3.png)
+    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step4.png)
+    ![](https://github.com/acjdxhs/demo/tree/master/img_folder/step5.png)
 2.  创建文件并输入代码，见仓库。
 3.  配置连接 MySQL 数据库
     *   首先需要安装 MySQL 数据库，这里不做展开。

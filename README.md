@@ -63,7 +63,7 @@ Vue + SpringBoot + MyBatis
 # 二、前端
 ### Vue 安装
 1.	获得cnpm，目的是利用淘宝的镜像，而不是使用国外的资源，这样下载依赖包的时候会快很多
-    > npm install -g cnpm –registry=https://registry.npm.taobao.org
+    > npm install -g cnpm --registry=https://registry.npm.taobao.org
 2.	全局安装 vue-cli （vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快速创建 vue 项目）
     > cnpm install --global vue-cli
 3.	创建项目   
